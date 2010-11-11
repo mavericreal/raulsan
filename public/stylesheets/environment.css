@@ -1,0 +1,232 @@
+
+
+/***********ENVIRONMENT***********/
+
+#homeEnv{
+	width:175px;
+	cursor:pointer;
+	position:absolute;
+	top:300px;
+	left:0;
+	z-index:102;
+}
+
+#homeEnv img{
+	float:left;
+	position:relative;
+}
+#homeEnvText{
+	font-family:'social';
+	float:left;
+	position:relative;
+	font-size:13px;
+	margin-top:10px;
+	width:120px;
+}
+
+
+/*CONTENT ENV*/
+#contentEnv{
+	height:100%;
+	margin:0 auto;
+	width:960px;
+	position:relative;
+}
+
+/*STEPS*/
+.step{
+	width:100%;
+	height:20px;
+	position:relative;
+	float:left;
+}
+.step img{
+	position:absolute;
+	float:left;
+}
+
+#step1{
+	margin-top:300px;
+}
+#step1 img{
+	left:360px;
+	top:-15px;
+}
+#step2{
+	margin-top:20px;
+}
+#step2 img{
+	left:295px;
+	top:-10px;
+}
+#step3{
+	margin-top:20px;
+	top:-15px;
+}
+#step3 img{
+	left:200px;
+	top:-10px;
+}
+#step4{
+	margin-top:20px;
+}
+#step4 img{
+	left:290px;
+}
+#step5{
+	margin-top:20px;
+}
+#step5 img{
+	left:325px;
+	top:20;
+}
+#step6{
+	margin-top:20px;
+}
+#step6 img{
+	left:397px;
+	top:20px;
+}
+#step7{
+	margin-top:20px;
+}
+#step7 img{
+	left:480px;
+	top:10ps;
+}
+
+#step8{
+	margin-top:20px;
+}
+#step8 img{
+	left:800px;
+}
+#step9{
+	margin-top:20px;
+}
+#step9 img{
+	left:840px;
+}
+#step10{
+	margin-top:20px;
+}
+#step10 img{
+	left:880px;
+	top:20px;
+}
+#step11{
+	margin-top:20px;
+}
+#step11 img{
+	left:840px;
+	top:35px;
+}
+
+/*TOP MOUNTAIN*/
+#topMountain{
+	width:100%;
+	height:300px;
+	text-align:center;
+	background:url('../images/topMountain.jpg') center;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+
+/*EEE*/
+
+#eee{
+	float:left;
+	position:relative;
+	text-align:left;
+	width:100%;
+}
+
+#eeeA{
+	float:left;
+	position:relative;
+}
+
+#eeeB{
+	float:left;
+	margin-left:30px;
+	margin-top:200px;
+	position:relative;
+	width:400px;
+}
+
+#eeeC{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#eeeF{
+
+	margin-bottom:10px;
+}
+
+#eeeD img{
+	float:left;
+	position:relative;
+}
+
+#eeeE{
+	float:left;
+	position:relative;
+	margin-left:10px;
+}
+
+#eeeD img{
+	border:solid 0px white;
+	width:20px;
+}
+
+
+/*AVAAZ*/
+
+#avaz{
+	float:left;
+	position:relative;
+	text-align:left;
+	width:100%;
+}
+
+#avazA{
+	float:right;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:10px;
+	margin-top:15px;
+	position:relative;
+}
+#avazB{
+	float:right;
+	position:relative;
+}
+#avazB img{
+	border:0px solid white;
+}
+
+/*STEADY STATE*/
+#steadyState{
+	float:left;
+	position:relative;
+	width:100%;
+	margin-bottom:60px;
+}
+#steadyStateA{
+	float:left;
+	position:relative;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:60px;
+	margin-left:15px;
+}
+#steadyStateB{
+	float:left;
+	position:relative;
+}
+#steadyStateB img{
+	border:0px solid white;
+}

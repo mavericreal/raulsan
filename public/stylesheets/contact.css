@@ -1,0 +1,73 @@
+
+
+/***********CONTACT***********/
+
+
+#contentContact{
+	width:960px;
+	margin:auto;
+}
+
+#email{
+	margin-top:250px;
+}
+
+#socialMedia{
+	margin-top:100px;
+}
+
+#socialMediaA{
+	width:960px;
+	position:relative;
+}
+
+.socialMediaA{
+	position:relative;
+	float:left;
+	margin-left:40px;
+}
+
+.socialMediaA img{
+	border:0px solid white;
+}
+
+#facebook{
+	
+}
+#facebook img{
+	height:100px;
+}
+
+#twitter{
+	
+}
+
+#twitter img{
+	width:100px;
+}
+
+#wiserEarth{
+
+}
+
+#wiserEarth img{
+	padding-top:18px;
+	width:180px;
+}
+
+#change{
+	
+}
+
+#change img{
+	width:185px;
+	padding-top:15px;
+}
+
+#picasa{
+	
+}
+
+#picasa img{
+	padding-top:13px;
+}

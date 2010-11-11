@@ -1,0 +1,192 @@
+@font-face {
+	font-family: 'social';
+	src: url("fonts/a.ttf");
+}
+
+@font-face {
+	font-family: 'tech';
+	src: url("fonts/chintzy.ttf");
+}
+
+@font-face {
+	font-family: 'env';
+	src: url("fonts/b.ttf");
+}
+
+@font-face {
+	font-family: 'blog';
+	src: url("fonts/CasualMarkerMF.ttf");
+}
+
+@font-face {
+	font-family: 'hand';
+	src: url("fonts/l.ttf");
+}
+
+/*GENERAL*/
+
+body{
+	background-position: center top;
+	overflow-y:auto;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-family:verdana;
+	width:100%;
+	height:100%;
+}
+
+#main{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.withBorder{
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+/*HEADER*/
+#header{
+	width:100%;
+	color:#272D72;
+	font-family:'social';
+	position:absolute;
+}
+
+#myWorldT{
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+}
+
+#myNameT{
+	width:100%;
+	text-align:center;
+	font-size:25pt;
+}
+
+#bg{
+	background:#518CCD;	
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:0;
+}
+
+/*CONTENT*/
+#content{
+	height:610px;
+	margin:auto;
+	width:960px;
+}
+
+#planet{
+	left:50%;
+	margin-left:-150px;
+	margin-top:150px;
+	position:absolute;
+	z-index:1000;
+}
+
+/*MAIN LABELS*/
+.labelA{
+	padding:3px 5px;
+	position:absolute;
+	color:white;
+	cursor:pointer;
+}
+
+div.labelA:hover{
+	color:#234B11;
+}
+
+#contact{
+	font-family:'social';
+	font-size:19pt;
+	margin-left:740px;
+	margin-top:510px;	
+}
+
+#technology{
+	font-family:'tech';
+	font-size:24pt;
+	margin-left:800px;
+	margin-top:280px;
+}
+
+#environment{
+	font-family:'env';
+	font-size:24pt;
+	margin-top:180px;
+}
+
+#blog{
+	font-family:'blog';
+	font-size:24pt;
+	margin-left:80px;
+	margin-top:550px;
+	padding:3px 5px;
+	position:absolute;
+	color:white;
+	cursor:pointer;
+}
+
+div#blog a:hover{
+	color:#234B11;
+}
+div#blog a:visited{
+	color:white;
+}
+div#blog a{
+	text-decoration:none;
+	color:white;
+}
+
+/*EXPLORER*/
+#explorer{
+	position:absolute;
+	top:100px;
+	left:50%;
+	width:500px;
+	margin-left:-250px;
+	z-index:1001;
+	background:white;
+	border: 3px solid #272D72;
+	min-height:380px;
+	font-weight:bold;
+}
+
+#explorerB{
+	margin-top:60px;
+}
+
+#explorerD{
+	margin:15px auto;
+}
+#explorerD img{
+	border:0px solid white;
+	width:60px;
+}
+
+#closeExplorer{
+	border: 3px solid #272D72;
+	margin: 0 auto 20px;
+	width:200px;
+	background:#272D72;
+	color:white;
+	cursor:pointer;
+}
+
+#explorerE{
+	margin-bottom:20px;	
+}
+
+#closeExplorer:hover{
+	background:white;
+	color:#272D72;
+}
